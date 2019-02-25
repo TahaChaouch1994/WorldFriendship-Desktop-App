@@ -123,7 +123,9 @@ public class HomePageController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         
-    }  
+    } 
+    
+    
 
     @FXML
     private void AddArticle(MouseEvent event) throws IOException {
