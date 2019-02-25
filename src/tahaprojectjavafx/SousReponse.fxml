@@ -141,19 +141,19 @@
                         </VBox>
                         <VBox fx:id="dealVB" prefHeight="200.0" prefWidth="300.0">
                            <children>
-                              <JFXButton fx:id="dealButton" alignment="BASELINE_LEFT" graphicTextGap="10.0" lineSpacing="16.0" prefHeight="25.0" prefWidth="304.0" style="-fx-background-color: rgba(0,0,0,.9); -fx-padding: 9 9 9 17;" text="Q &amp;A" textFill="#dadada">
+                              <JFXButton fx:id="dealButton" alignment="BASELINE_LEFT" graphicTextGap="10.0" lineSpacing="16.0" onAction="#AcceuilButtonAction" prefHeight="25.0" prefWidth="304.0" style="-fx-background-color: rgba(0,0,0,.9); -fx-padding: 9 9 9 17;" text="Q &amp;A" textFill="#dadada">
                                  <graphic>
                                     <FontAwesomeIconView fill="#fefefe" glyphName="TAGS" size="15" />
                                  </graphic>
                               </JFXButton>
                               <VBox fx:id="sousMenuDeal" prefHeight="92.0" prefWidth="300.0" style="-fx-background-color: rgba(0,0,0,.7);">
                                  <children>
-                                    <JFXButton alignment="BASELINE_LEFT" graphicTextGap="8.0" prefHeight="25.0" prefWidth="302.0" style="-fx-padding: 7 7 7 50;" text="Publier question" textFill="#dadada">
+                                    <JFXButton alignment="BASELINE_LEFT" graphicTextGap="8.0" onAction="#PublierQuestionButtonAction" prefHeight="25.0" prefWidth="302.0" style="-fx-padding: 7 7 7 50;" text="Publier question" textFill="#dadada">
                                        <graphic>
                                           <FontAwesomeIconView fill="#fefefe" glyphName="PLUS" size="15" />
                                        </graphic>
                                     </JFXButton>
-                                    <JFXButton alignment="BASELINE_LEFT" graphicTextGap="8.0" prefHeight="42.0" prefWidth="300.0" style="-fx-padding: 7 7 7 50;" text="Mes questions" textFill="#dadada">
+                                    <JFXButton alignment="BASELINE_LEFT" graphicTextGap="8.0" onAction="#MesQuestionButtonAction" prefHeight="42.0" prefWidth="300.0" style="-fx-padding: 7 7 7 50;" text="Mes questions" textFill="#dadada">
                                        <graphic>
                                           <FontAwesomeIconView fill="#fefefe" glyphName="CREDIT_CARD" size="15" />
                                        </graphic>
